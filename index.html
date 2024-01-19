@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title></title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Join the Music Network</h1>
+    <p id="description">A collective of musicians in the Austin, TX area</p>
+    <p id="description">When you sign up, we'll add you into our database and follow up with an email that contains more information about how Tour Collective is striving to help people like YOU find jobs easier in the touring industry.</p>
+    <form id="survey-form">
+     <div><h3>Personal Information:</h3></div>
+      <label for="name" id="name-label">
+        <div>Name: <input id="name" type="text" required placeholder="e.g. John Doe"/></div></label>
+        <label for="email" id="email-label">
+          <div>Email: <input id="email" name="email" type="email" required placeholder="e.g. me@gmail.com"/></div></label>
+        <label for="number" id="number-label">
+          <div>Age (optional): <input id="number" type="number" pattern="[0-9]" min="18" max="75" placeholder="e.g. 24"></div></label>
+        <div><h3>Are you legally able to work in the United States?</h3>
+        </div>
+          <select id="dropdown">
+          <div>
+            <option>Select One:</option>
+            <option>Yes</option>
+            <option>No</option>
+            </div>
+        </select>
+        
+        <div class="active"><h3>Are you actively looking for work?</h3>
+          <input type="radio" value="yes" name="active">Yes
+        <input type="radio" value="no" name="active">No
+        </div>
+
+       <div class="role"><h3>Select all that apply:</h3><ul name="role">
+          <li> <input type="checkbox" value="skill"> Guitar</li>
+          <li> <input type="checkbox" value="skill"> Bass</li>
+          <li> <input type="checkbox" value="skill"> Keys</li>
+          <li> <input type="checkbox" value="skill"> Drums</li>
+          <li> <input type="checkbox" value="skill"> Vocals</li>
+          <li> <input type="checkbox" value="skill"> Producer</li>
+          <li> <input type="checkbox" value="skill"> Live Audio Engineer</li>
+          <li> <input type="checkbox" value="skill"> Playback</li>
+          <li> <input type="checkbox" value="skill"> Tour Manager</li>
+          </ul></div>
+          <div><h3>Comments:</h3></div>
+          <div class="textbox">
+            <textarea placeholder="Anything else you want us to know?"></textarea></div>
+          <div><button id="submit">Join the Crew</button></div>
+      </form>
+    </body>
+  </html>

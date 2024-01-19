@@ -1,0 +1,55 @@
+* {
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: lightgray;
+}
+
+form {
+    background-color: #eeeeee;
+}
+#description {
+    text-align: center;
+}
+
+div {
+    margin-left: 15px;
+}
+
+h3 {
+    text-align: left;
+}
+
+#dropdown {
+    margin-left: 20px;
+}
+
+li {
+    list-style-type: none;
+    margin: 5px;
+}
+
+textarea {
+   width: 400px;
+    height: 80px;
+    
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    background-color: #5977d5;
+    color: white;
+    font-weight: bold;  
+    margin-top: 5px;  
+}
+
+#name, #email {
+    width: 300px;
+}
